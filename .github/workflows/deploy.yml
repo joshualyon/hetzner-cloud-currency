@@ -5,6 +5,9 @@ on:
     branches:
       - master  # the branch you want to trigger the deployment from
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
